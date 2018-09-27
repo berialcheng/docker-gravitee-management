@@ -1,7 +1,7 @@
 FROM graviteeio/java:8
 MAINTAINER Gravitee Team <http://gravitee.io>
 
-ARG GRAVITEEAM_VERSION=0
+ARG GRAVITEEAM_VERSION=2.0.4
 ENV GRAVITEEAM_HOME /opt/graviteeio-am-management-api
 
 # Update to get support for Zip/Unzip, nc and wget
